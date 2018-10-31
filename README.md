@@ -1,24 +1,35 @@
 # GitHub-Practice-For-All
+[![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
 
-Our FCC forum post: (https://forum.freecodecamp.org/t/git-and-github-practice-for-all-us-noobies/171808)
+[Project Website](https://romchyfcc.github.io/GitHub-Practice-For-All/)
 
-### How to contribute, TL;DR Version
+[FreeCodeCamp Forum Post](https://forum.freecodecamp.org/t/git-and-github-practice-for-all-us-noobies/171808)
+
+[Our Contributors so far!](#contributors)
+
+### How to contribute: 
 
 1. Fork a copy of this project to your own repository in the upper-right corner of this page!
 
-2. Keep your fork synched! You need to create a git clone in your local storage, the step by step guide is available here https://help.github.com/articles/fork-a-repo/
+2. Now create a `git clone` in your local storage, the step by step guide is available [here](#how-to-pr)
 
-3. Now open the files in your own text editor of choice. You will find the files in "The Website" folder.
+   - Create a new branch `git checkout -b <branch-name>`
+   - Set `upstream` branch so you can keep your local files synched with the original repository; [Details](#how-to-sync-your-local-repo-with-the-original-repo)
+
+3. Now open the files in your own text editor of choice.
 
 4. Write your name anywhere in the file so it shows up in the webpage!
 
-5. Now git push the changes made to your own repository (if you use git push origin master it will automaticly put it in your forked repository, no need to fear that your git push will affect the original repository-this one)
+5. Now git push the changes made to your own repository `git push origin <branch-name>`
 
-6. SUBMIT A PULL REQUEST ON GITHUB (How to steps written below)
+6. Submit a pull request in this repository; [Details](#how-to-pr)
 
-7. THAT'S IT, YOU'RE DONE, YOU SUCCESSFULLY CONTRIBUTED TO THE PROJECT AND HOPEFULLY LEARNED SOMETHING ALONG THE WAY
+7. THAT'S IT, you're done, we will review the Pull Request and if it fits the theme, we will merge.
 
-8. Extra credit if you stay around for a few git pull's and more pull requests.
+8. For the best team like experience, stay in sync with our repository and contribute more by resolving our [issues](https://github.com/RomchyFCC/GitHub-Practice-For-All/issues) or submit your own!
+
+9. Thank you for contributing!
+
 
 
 A few guidance rules to follow:
@@ -33,7 +44,7 @@ A few guidance rules to follow:
 ---
 
 
-#### Thank you JacksonBates @ https://github.com/JacksonBates for the well written contributions documentation
+#### Thank you [JacksonBates](https://github.com/JacksonBates) for the well written contributions documentation
 
 # Contributing
 
@@ -57,7 +68,8 @@ Aside from that, stick to the fork-pull workflow outlined below.
 
 <b>Below, you will find the summary of git guides from the Guides file. </b>
 
-## How to PR (pull request)
+## How to PR
+(pull request)
 
 + On your forked verision of the repo on GitHub, click the green 'clone or download' button and copy the link.
   + The link will look something like this: `https://github.com/RomchyFCC/GitHub-Practice-For-All.git` (but with your username, not mine)
@@ -67,13 +79,15 @@ Aside from that, stick to the fork-pull workflow outlined below.
 + In your terminal navigate to the folder that was just created.
   + The command for this is `cd`
   + eg: `cd GitHub-Practice-For-All`
-+ If your version of the repo is ever out of sync with the original repo, i.e. there are new commits on the master branch of the original that you don't have, you need to sync your repo before adding your contributions. **See below, in the section called 'How to sync your local repo with the original repo' for details**
++ If your version of the repo is ever out of sync with the original repo, i.e. there are new commits on the master branch of the original that you don't have, you need to sync your repo before adding your contributions. **See below, in the section called 'How to sync your local repo with the original repo' for details or click [here](#how-to-sync-your-local-repo-with-the-original-repo)**
 + **Create a new branch to work on** (you'll do this for your real contributions, too).
   + At the terminal, in the correct folder, run `git checkout -b <new-branch-name>`
   + `<new-branch-name>` should be replaced with something sensible, like `feature-login-form` or `fix-login-bug`
   + All together, an example: `git checkout -b feature-login-form`
 + Make the changes to the appropriate files.
 + Push your change to your fork:
+  + `git add .` (the `.` adds all modified and created items up for commit)
+  + `git commit -m "<comment-about-your-commit>"` (the `-m` signifies that you will pass a commit comment as an argument in quotes)
   + `git push origin <your-branch-name>`
 + Open a pull request. Follow the guide here: [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
   + @mention anyone you specifically want to review your PR
@@ -121,6 +135,7 @@ Aside from that, stick to the fork-pull workflow outlined below.
     `git push`
 
 Now your local repo and your GitHub repo is up to date with the original repo you forked from.
+<strong>For more in-depth look at github and markdown, here are some courses/guides/cheatsheets: [Link](https://github.com/JABedford/Front-End-Bible/tree/master/Learning%20Resources/Github%20and%20Markdown%20Guides)</strong>
 
 ## Code of Conduct
 
@@ -200,3 +215,48 @@ available at [http://contributor-covenant.org/version/1/4][version]
 ## Any questions?
 
 Could this CONTRIBUTING file be improved? Was anything inaccurate or unclear? Please open up an issue and suggest appropriate fixes. Good documentation is just as crucial as good code - so documentation contributions are just as valued as fancy code contributions!
+
+## Contributors
+
+- [Darren](https://github.com/DarrenfJ)
+- [Ariel Leslie](https://github.com/ArielLeslie)
+- [Ivan Oung](https://github.com/ivanoung)
+- [Tom](https://github.com/moT01)
+- [Aaron Schmidt](https://github.com/Schmidt-Aaron)
+- [Alex Nielsen](https://github.com/bushbass)
+- [Sachithra Lahiru Kahatapitiya](https://github.com/Sacheec47)
+- [dmac0505](https://github.com/dmac0505)
+- [Alan Moir](https://github.com/mills3)
+- [stacyHere](https://github.com/stacyHere)
+- [akashksunny13](https://github.com/akashksunny13)
+- [Firuz Shoev](https://github.com/FiruzShoev)
+- [Bratislav](https://github.com/bracar)
+- [Catherine Fromont](https://github.com/catherinefromont)
+- [Tian](https://github.com/tian-dutoit)
+- [Elyse Wyatt](https://github.com/ElyseWyatt)
+- [rkimmi](https://github.com/rkimmi)
+- [Sheena Mattu](https://github.com/sheenapercy)
+- [Pinja Pessi](https://github.com/ppessi)
+- [h1tag](https://github.com/h1tag)
+- [Danielle Shwed](https://github.com/danielleshwed)
+- [dinamahmoud25](https://github.com/dinamahmoud25)
+- [sunil](https://github.com/usunil0)
+- [Nirmal Dalmia](https://github.com/nirmaldalmia)
+- [mukul7](https://github.com/mukul7)
+- [Ivan Yakimov](https://github.com/ivan3123708)
+- [Ayush](https://github.com/heyayushh)
+- [Bing](https://github.com/BingZL1983)
+- [Dimitra Karamperi](https://github.com/dimikara)
+- [Daria Puch](https://github.com/dar-puch)
+- [Ravi Kishore Thella](https://github.com/ravikishorethella)
+- [Rob Williams](https://github.com/poppashingles)
+- [richardson3535](https://github.com/richardson3535)
+- [Jacek Złoty](https://github.com/jzloty)
+- [Rose](https://github.com/rkett)
+- [vignesh](https://github.com/vignesh240)
+- [Kevin T Reynolds](https://github.com/OnlinePseudonym)
+- [William Larry](https://github.com/geekiam23)
+- [Akshay Kumar](https://github.com/akshaykumar123)
+- [Daniel Cook](https://github.com/dcookwebdev)
+- [Tee Wen Seng](https://github.com/tws9797)
+- [Gan Chew Ying](https://github.com/gcyying123)
